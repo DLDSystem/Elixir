@@ -83,10 +83,10 @@ img{
 
 /*BTN*/
 .btn{
+    border-radius: 5;
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
-    border-radius: 0;
     padding: 10px 24px;
 }
 
@@ -97,9 +97,17 @@ img{
 }
 
 .btn-brand:hover{
-    background-color: var(--c-brand-light);
-    border-color: var(--c-brand-light);
+    background-color: white;
+    border-color: var(--c-brand);
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+.btn-light:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    border-color: white;
     color: white;
+    transition: var(--transition);
 }
 
 /*HERO*/
